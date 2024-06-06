@@ -1,0 +1,32 @@
+.section-office__title{
+    width: 640px;
+    font: 400 48px / 1.05 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #020a10;
+}
+
+.wrapper_info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrapper_info1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-office__title_bottom{
+    padding-top: 16px;
+    width: 640px;
+    font: 400 24px / 1.2 "Okta Neue", sans-serif;
+    color: #020a10;
+}
+
+
+.section-office__grid{
+    display: flex;
+    padding-top: 50px;
+    gap: 32px;
+}

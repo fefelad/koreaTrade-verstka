@@ -1,0 +1,48 @@
+.wrapper_card-item{
+    max-width: 300px;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper_card-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section-support__grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-support__title{
+    font: 400 48px / 1.05 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #00368c;
+}
+
+.info_card-inside{
+    font: 400 18px / 1.2 "Okta Neue", sans-serif;
+    color: #020a10;
+}
+
+.info_card-inside_grey{
+    padding-top: 12px;
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #9d9d9d;
+}
+
+.section-сertificate__title{
+    padding-top: 32px;
+    font: 400 48px / 1.05 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #00368c;
+    opacity: 0.2;
+}

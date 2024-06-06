@@ -1,0 +1,81 @@
+.bg_img{
+    width: 100%;
+    height: 100%;
+}
+
+.container3{
+    position: relative;
+}
+
+.section-buy__title{
+    position: absolute;
+    width: 640px;
+    top: 280px;
+    left: 40px;
+
+    font: 400 48px / 1.05 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.wrapper_input-text{
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    width: 300px;
+    height: 28px;
+    background: #fff;
+}
+
+.select{
+    width: 298px;
+    height: 28px;
+    cursor: pointer;
+    color:gray;
+}
+
+.wrapper_magazin{
+    padding-top: 12px;
+}
+
+.first_sity-info{
+    padding-top: 12px;
+    width: 300px;
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
+}
+
+.p_color-gry{
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #9d9d9d;
+}
+
+.magazine-title{
+    padding-top: 52px;
+    font: 400 18px / 1.2 "Okta Neue", sans-serif;
+    color: #020a10;
+}
+
+.pd12px{
+    padding-top: 6px;
+}
+
+.sity{
+    font: 400 24px / 1.2 "Okta Neue", sans-serif;
+    color: #020a10;
+}
+
+.blue_text{
+    font: 400 18px / 1.2 "Okta Neue", sans-serif;
+    color: #00368c;
+}
+
+.section-buy__grid{
+    display: flex;
+    gap: 40px;
+}
+
+.wrapper-map{
+    padding-top: 52px;
+}

@@ -1,0 +1,47 @@
+.section-Choice__title{
+    width: 640px;
+    font: 400 48px / 1.05 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #020a10;
+}
+
+.section-Choice__grid{
+    display: flex;
+    gap: 32px;
+    padding-top: 52px;
+    box-shadow: 0 0 32px 0 rgba(97, 99, 103, 0.06);
+    background: #fff;
+}
+
+.img_choise{
+    border-radius: 12px;
+}
+
+.card__items{
+    border-radius: 12px;
+    width: 300px;
+    height: 340px;
+    box-shadow: 0 0 32px 0 rgba(97, 99, 103, 0.13);
+    background: #fff;
+}
+
+.card__info_text{
+    padding-top: 45px;
+    padding-left: 20px;
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #020a10;
+}
+
+.price{
+    width: 232px;
+    border-radius: 142px;
+    padding: 15px 32px 13px 32px;
+    height: 46px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #f2112f;
+
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}

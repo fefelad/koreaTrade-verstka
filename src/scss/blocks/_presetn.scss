@@ -1,0 +1,43 @@
+.section-present{
+    position: static;
+    z-index: 8;
+    // padding-top: 125px !important;
+    //Отключил когда работал с 1440px - лучше выглядит ... надо включить или сделать больше отступ больше у секции выше(для 1920px)
+    
+}
+
+.container__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.section-present__title{
+    font: 400 72px / 0.96 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #fff;
+    width: 641px;
+    height: 138px;
+}
+
+.section-present__grid{
+    font: 400 18px / 1.2 "Okta Neue", sans-serif;
+    color: #fff;
+    width: 337px;
+    height: 66px;
+}
+
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-position:  center;
+    z-index: -1;
+}
+
+

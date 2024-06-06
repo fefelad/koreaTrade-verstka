@@ -1,0 +1,67 @@
+.section-InesTrade__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 72px / 0.96 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #020a10;
+}
+
+.section-InesTrade__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 52px;
+}
+
+.card_item{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 32px 0 rgba(68, 70, 73, 0.06);
+    background: #fff;
+    
+}
+
+.red_text{
+    padding: 10px;
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #f2112f;
+}
+
+
+.btn_wrapper{
+    border-radius: 90px;
+    padding-left: 15px;
+    padding-top: 4px;
+    width: 104px;
+    height: 28px;
+    box-shadow: 0 0 32px 0 rgba(97, 99, 103, 0.13);
+    background: #f2112f;
+}
+
+.btn_wrapper:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #00368c;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.active{
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #fff;
+}
+
+.red_text:hover{
+    color: #fff;
+    border-radius: 90px;
+    padding-left: 15px;
+    padding-top: 4px;
+    width: 104px;
+    height: 28px;
+    box-shadow: 0 0 32px 0 rgba(97, 99, 103, 0.13);
+    background: #f2112f;
+    cursor: pointer;
+}

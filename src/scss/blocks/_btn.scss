@@ -1,0 +1,83 @@
+
+// кнопка для блока present
+.btn-present{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+    border-radius: 142px;
+    padding: 15px 50px;
+    width: 238px;
+    height: 46px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #fff;  
+}
+
+.btn-present__text{
+    font: 400 15px / 1.2 "Iner", sans-serif;
+    text-transform: uppercase;
+    color: #012969;
+}
+
+
+// Кнопка для блока choice
+.btn_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+
+}
+
+.price:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #00368c;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+// кнопка для блока praceList
+.btn_price_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.price-list:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #00368c;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+// Кнопка для футера
+.btn_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+
+
+}
+
+.btn_footer_text{
+    border-radius: 142px;
+    padding: 10px 32px 8px 32px;
+    width: 320px;
+    height: 46px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #fff;
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    text-transform: uppercase;
+    color: #00368c;
+    
+}
+
+.btn_footer_text:hover{
+    background: red;
+    color: white;
+    opacity: 0.9;
+    transition: 0.3s;
+}

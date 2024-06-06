@@ -1,0 +1,39 @@
+.grid_section-cooperation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.section-cooperation__title{
+    font: 400 48px / 1.05 "Okta Neue", sans-serif;
+    letter-spacing: -0.04em;
+    color: #020a10;
+}
+
+.section-cooperation__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.number_lefUp{
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: rgba(55, 55, 55, 0.4);
+}
+
+.oreder_text{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font: 400 24px / 1.2 "Okta Neue", sans-serif;
+    color: #020a10;
+}
+
+.desc{
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #9d9d9d;
+}
+
+.blue_text_price{
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #00368c;
+}

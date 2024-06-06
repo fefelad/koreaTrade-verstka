@@ -1,0 +1,43 @@
+.section-priceList__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section_wrapper-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+    .price_title-text{
+        width: 520px;
+        font: 400 48px / 1.05 "Okta Neue", sans-serif;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #00368c;
+    }
+
+    .price_info-text{
+        width: 380px;
+        padding-bottom: 12px;
+        font: 400 18px / 1.2 "Okta Neue", sans-serif;
+        text-align: center;
+        color: #00368c;
+    }
+}
+
+.price-list{
+    width: 232px;
+    border-radius: 142px;
+    padding: 15px 32px 13px 32px;
+    height: 46px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #f2112f;
+
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}

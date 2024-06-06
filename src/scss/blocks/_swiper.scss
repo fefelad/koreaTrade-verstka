@@ -1,0 +1,43 @@
+.container__wrapper__swiper{
+    padding-top: 255px;
+
+    @include tablet {
+        padding-top: 155px;
+    }
+}
+
+// для 1400 padding-top: 155px;
+
+.swiper {
+    padding-top: 150px;
+    width: 100%;
+    height: 94px;
+    
+
+}
+
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.swiper-slide{
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    height: 94px;
+    backdrop-filter: blur(64px);
+    background: rgba(249, 250, 251, 0.12);
+}
+
+.swiper-slide_text{
+    padding-top: 10px;
+    width: 280px;
+    margin: 0 !important;
+    font: 400 15px / 1.2 "Okta Neue", sans-serif;
+    color: #fff;
+}
